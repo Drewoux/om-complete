@@ -1,0 +1,6 @@
+version = 3
+
+# Mercato classic
+[[services]]
+name = "mercato"
+start_command = ["env", "PORT=13000", "OM_DEV_INOTIFY_CHECK=0", "OM_DEV_BUNDLER=turbopack", "yarn", "dev", "--watch=auto-optimized"]
